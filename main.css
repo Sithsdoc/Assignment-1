@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&family=Open+Sans:ital,wght@0,300;1,400&display=swap');
+body{
+    color: black;
+    /*background-color:#0d5d12;*/
+    background-color: #CD7F32;
+    font-family: 'MedievalSharp', cursive;
+}
+/*font and text color*/ 
+h1, p{
+    text-align: center;
+}
+div.container{
+    text-align: center;
+}
+ol.website{
+    display: inline-block;
+    text-align: left;
+}
+div.bottle{
+    text-align: center;
+}
+ol.image{
+    display: inline-block;
+    text-align: left;
+}
+
+/*centering text, list*/
+div.solid{
+    background-color: #C0C0C0;
+    border-style: solid;
+    width: fit-content;
+    margin: auto;
+}
+/*this puts a border around the text, changes background color in border, and adjusts border to fit around the text*/
+a:link {
+    color:#0d5d12;
+}
+a:visited{
+    color: #964B00
+}
+a:hover, a:active {
+    color: red;
+}
+/*change link colors*/
+.row{
+  display: flex;
+}
+.column {
+    float: left;
+    width: 35%;
+    padding: 5px; 
+  }
+.lisa{
+    margin-left: 250px;
+    border: 5px solid #ffd700;
+}
+.school{
+margin-left: 60px;
+border: 5px solid #964B00;
+}
+.pieta{
+    border: 5px solid #757575;
+}
+/*moves pirctures around, adds border*/
